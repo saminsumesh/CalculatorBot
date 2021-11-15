@@ -5,8 +5,8 @@ Open Source -> https://github.com/SaminSumesh/CalculatorBot
 ```
 __Kanged From @FayasNoushad__
 
-`Added APP.json` ,
-`Added Heroku Button`
+• `Added APP.json` ,
+• `Added Heroku Button`
 
 ---
 

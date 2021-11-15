@@ -16,7 +16,10 @@ Bot = Client(
 
 
 START_TEXT = """
-Hello {}, I Am Just An Simple Calculator Bot. 🤖\n Type /calculator To Use Meh ❤️.
+Hello {}, 
+I Am Just An Simple Calculator Bot. 🤖
+
+Type /calculator To Use Meh ❤️.
 
 Made by 🎈 @XD_Botz
 """

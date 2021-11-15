@@ -3,9 +3,9 @@ Made with Python3
 (C) @FayasNoushad
 Open Source -> https://github.com/SaminSumesh/CalculatorBot
 ```
-Kanged From @FayasNoushad
+__Kanged From @FayasNoushad__
 
-`Added APP.json` 
+`Added APP.json` ,
 `Added Heroku Button`
 
 ---

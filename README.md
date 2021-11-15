@@ -2,7 +2,7 @@
   <img src="asset/images (1).jpeg" alt="XD BOTZ ❤️">
 </p>
 <h1 align="center">
-  <b>Eva Maria Bot</b>
+  <b>XD_Botz</b>
 </h1>
 
 ```

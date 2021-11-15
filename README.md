@@ -1,16 +1,19 @@
 ```
 Made with Python3
 (C) @FayasNoushad
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/Calculator-Bot/blob/main/LICENSE
+Open Source -> https://github.com/SaminSumesh/CalculatorBot
 ```
+Kanged From @FayasNoushad
+
+`Added APP.json` 
+`Added Heroku Button`
 
 ---
 
 ## Deploy
 
 ```sh
-git clone https://github.com/FayasNoushad/Calculator-Bot/tree/main
+git clone https://github.com/SaminSumesh/CalculatorBot
 cd Calculator-Bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -33,6 +36,7 @@ python3 main.py
 ## Credits
 
 - [Fayas Noushad](https://github.com/FayasNoushad)
+- [Paul Walker](https://t.me/PaulWalker_TG
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ---

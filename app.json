@@ -1,0 +1,35 @@
+{
+    "name": "CALCULATOR BOT",
+    "description": "An Simple Calculator Bot",
+    "repository": "https://github.com/saminsumesh/CalculatorBot",
+    "website": "https://github.com/saminsumesh/CalculatorBot",
+    "env": {
+        "API_HASH": {
+            "description": "",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "",
+            "required": "True"
+        }
+    },
+    "stack": "heroku-18",
+    "buildpacks": [
+        {
+            "url": "heroku"
+        },
+        {
+            "url": "python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

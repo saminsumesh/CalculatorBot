@@ -17,13 +17,10 @@
             "required": "True"
         }
     },
-    "stack": "heroku-18",
+    "addons": [],
     "buildpacks": [
         {
-            "url": "heroku"
-        },
-        {
-            "url": "python"
+            "url": "heroku/python"
         }
     ],
     "formation": {

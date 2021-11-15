@@ -26,7 +26,8 @@ Made by 🎈 @XD_Botz
 START_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('💭 SUPPORT 💭', url='https://t.me/XD_BotzSupport'),
-        InlineKeyboardButton('🤖 BOTZ UPDATES 🤖', url='https://t.me/XD_Botz')
+        ],[
+        InlineKeyboardButton('🤖 BOTZ UPDATES 🤖', url='https://t.me/XD_Botz'),        
         ]]
     )
 CALCULATE_TEXT = "Made by 🎈 @XD_Botz"

@@ -35,8 +35,8 @@ python3 main.py
 
 ## Credits
 
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Paul Walker](https://t.me/PaulWalker_TG)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
+• [Paul Walker](https://t.me/PaulWalker_TG)
+• [Fayas Noushad - Creator](https://github.com/FayasNoushad)
+• [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ---

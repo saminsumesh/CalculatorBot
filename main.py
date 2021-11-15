@@ -59,9 +59,12 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
 
 
 @Bot.on_message(filters.command(["start"]))
-await m.reply_photo(
-        "https://telegra.ph/file/100.jpg",
-        caption=START_TEXT.format(update.from_user.first_name),
+async def start(bot, update):
+    text = START_TEXT.format(update.from_user.mention)
+    reply_markup = START_BUTTONS
+    await update.reply_text(
+        text=text,
+        disable_web_page_preview=True,
         reply_markup=reply_markup,
     )
         

@@ -1,5 +1,10 @@
+<p align="center">
+  <img src="asset/images (1).jpeg" alt="XD BOTZ ❤️">
+</p>
+<h1 align="center">
+  <b>Eva Maria Bot</b>
+</h1>
 
-import images (1).jpeg from asset
 ```
 Made with Python3
 (C) @FayasNoushad

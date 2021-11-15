@@ -20,14 +20,14 @@ Bot = Client(
 START_TEXT = """
 Hello {}, I am a simple calculator telegram bot. Send me /calculator.
 
-Made by @FayasNoushad
+Made by 🎈 @XD_Botz
 """
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('🤖 Join Update Channel 🤖', url='https://t.me/XD_Botz')
         ]]
     )
-CALCULATE_TEXT = "Made by @FayasNoushad"
+CALCULATE_TEXT = "Made by 🎈 @XD_Botz"
 CALCULATE_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton("DEL", callback_data="DEL"),
@@ -59,16 +59,12 @@ CALCULATE_BUTTONS = InlineKeyboardMarkup(
 
 
 @Bot.on_message(filters.command(["start"]))
-async def start(bot, update):
-    text = START_TEXT.format(update.from_user.mention)
-    reply_markup = START_BUTTONS
-    await update.reply_text(
-        text=text,
-        disable_web_page_preview=True,
+await m.reply_photo(
+        "https://telegra.ph/file/100.jpg",
+        caption=START_TEXT.format(update.from_user.first_name),
         reply_markup=reply_markup,
-        quote=True
     )
-
+        
 
 @Bot.on_message(filters.private & filters.command(["calc", "calculate", "calculator"]))
 async def calculate(bot, update):
